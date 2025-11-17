@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config(
-  page_title ='Avinash Jairam | Portfolio',
+  page_title ='Mohamed Diallo | Portfolio',
   page_icon='🎯',
   layout = 'wide'
 )
@@ -24,14 +24,14 @@ page = st.sidebar.radio('Go to',
 
 # Home Page
 if page == '🏠 Home':
-  st.markdown('<p class="main-header">Avinash Jairam</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Mohamed Diallo</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">Aspiring Tech Professional | Medgar Evers College</p>', unsafe_allow_html=True)
 
   # Three Columns for stats
   col1, col2, col3 = st.columns(3)
 
   with col1:
-      st.metric('GPA', '3.8', '📚')
+      st.metric('GPA', '3.0', '📚')
   with col2:
       st.metric('Projects', '5', '💻')
   with col3:
@@ -51,7 +51,7 @@ if page == '🏠 Home':
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
             
-                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
+                🌱 **Fun Fact:** I run a business!
             ''')
   with col2:
     # Placeholder for image
@@ -68,7 +68,7 @@ elif page == '🤠 About':
     st.write('''
                 - Major: Computer Information Systems
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Track Team, Volleyball Team, Hackathon participant
+                - Activities: Basketball, Business, S&P
             ''')
 
   with st.expander('2023 - 2025: NYC Museum School'):
