@@ -178,7 +178,9 @@ elif page == '📩 Contact':
     st.write('''
         📧 **Email:** myfakemail@gmail.com
 
-        👩🏻‍💻 **Github:** [
+        👩🏻‍💻 **Github:** [https://github.com/modiallo888]
+
+        🅾 **Instagram:** [https://www.instagram.com/savantclubb/]
         ''')
 
 
