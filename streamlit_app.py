@@ -67,19 +67,19 @@ elif page == '🤠 About':
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
                 - Major: Computer Information Systems
-                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Basketball, Business, S&P
+                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, Web Designing
+                - Activities: Basketball, Business
             ''')
 
-  with st.expander('2023 - 2025: NYC Museum School'):
+  with st.expander('2019 - 2023: Benjamin Banneker Academy'):
     st.write('''
-                - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
+                - Graduated 
+                - MBK Ambassador
+                - Team Captain 
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+  interests = ['Web Development', 'AI/Machine Learning', 'Videography', 'Basketball', 'Travel', 'Business']
 
   # Display the interests in columns
   cols = st.columns(3)
