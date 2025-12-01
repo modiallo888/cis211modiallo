@@ -99,8 +99,8 @@ elif page == '💼 Projects':
         st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png', use_column_width = True)
 
     with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
+        st.subheader('🛒 E-Commerce Price Matcher')
+        st.write('Python web scraper that finds products for cheaper, so you always shop for less.')
         st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
@@ -110,8 +110,8 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
     with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
+      st.subheader('💱 Currency Converter Calulator')
+      st.write('Interactive web app for calculating and converting different curriencies.')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🛠 Skills':
@@ -121,11 +121,11 @@ elif page == '🛠 Skills':
   st.subheader('Programming Languages')
 
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
-    'Technical Writing' : 40
+    'Python' : 50,
+    'HTML/CSS' : 50,
+    'JavaScript' : 50,
+    'SQL' : 30,
+    'Technical Writing' : 30
   }
 
   for skill, level in skills_data.items():
