@@ -175,6 +175,9 @@ elif page == '📩 Contact':
   with col1:
     st.subheader('Send me a message.')
 
+    st.write('''
+        📧 **Email:** myfakemail@gmail.com
+
 
 
       
