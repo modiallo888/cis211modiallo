@@ -178,6 +178,7 @@ elif page == '📩 Contact':
     st.write('''
         📧 **Email:** myfakemail@gmail.com
 
+        👩🏻‍💻 **Github:** [
         ''')
 
 
