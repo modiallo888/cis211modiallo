@@ -31,11 +31,11 @@ if page == '🏠 Home':
   col1, col2, col3 = st.columns(3)
 
   with col1:
-      st.metric('GPA', '3.0', '📚')
+      st.metric('GPA', '2.9', '📚')
   with col2:
-      st.metric('Projects', '5', '💻')
+      st.metric('Projects', '1', '💻')
   with col3:
-      st.metric('Skills', '10+', '🚀')
+      st.metric('Skills', '5+', '🚀')
 
   st.write('---')
 
@@ -44,14 +44,14 @@ if page == '🏠 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                HTML, CSS, JavaScript, and Python to build innovative solutions.
+                I am a Computer Information Systems student passionate about web development and business. Currently learning
+                HTML, CSS, JavaScript, and Python to build innovative solutions. I want to use what I learn in this class to excel in future CIS classes, and get my degree.
             
-                🎯 **Current Focus:** Building interactive web applications with Streamlit
+                🎯 **Current Focus:** Building interactive web applications with Streamlit so I can pass this class!
             
-                📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
+                📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
             
-                🌱 **Fun Fact:** I run a business!
+                🌱 **Fun Fact:** I run a clothing business!
             ''')
   with col2:
     # Placeholder for image
